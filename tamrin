@@ -1,0 +1,6 @@
+n = int(input("enter number"))
+k = 1
+while k <= n:
+    if n % k == 0:
+        print(k)
+    k += 1
